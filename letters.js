@@ -1,11 +1,20 @@
-function letter()
+var Letter = function (letter) {
 
-this.trueLetter=
+    this.letter = letter;
 
-this.letterGuessed=false;
+    this.letterGuessed = false;
 
-this.display=function(
-    check this.letterGuessed;
-    return this.letter;
+    this.display = function () {
+        if (this.letterGuessed) {
+            return this.letter;
+        } else {
+            return "*";
+        }
 
-)
+
+    }
+
+}
+
+module.exports = Letter;
+
