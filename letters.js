@@ -1,11 +1,11 @@
-function letter(a)
+function letter()
 
-this.trueLetter=a
+this.trueLetter=
 
 this.letterGuessed=false;
 
 this.display=function(
-    check this.letterGuessed
-    return this.letter
-    
+    check this.letterGuessed;
+    return this.letter;
+
 )
