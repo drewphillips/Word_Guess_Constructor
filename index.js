@@ -2,7 +2,9 @@ var Word = require("./word.js");
 const inquirer = require("inquirer");
 
 
-var testWord = new Word("baseball");
+//var testWord = new Word("baseball");
+
+Array testWord = new Word("baseball, football, basketball, socer, lacross, basketball")
 
 // testWord.createLetters();
 // testWord.displayWord();
@@ -37,7 +39,9 @@ function playGame(word) {
     askForLetters();
 }
 
-playGame(testWord);
+playGame(testWord.Array[0]);
+
+console.log(testWord)
 
 
 
