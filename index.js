@@ -3,8 +3,11 @@ const inquirer = require("inquirer");
 
 
 //var testWord = new Word("baseball");
+// this worked for only having one word each time but Im trying to get an array of words.
 
-Array testWord = new Word("baseball, football, basketball, socer, lacross, basketball")
+
+
+testWord.array = new Word("baseball, football, basketball, socer, lacross, basketball")
 
 // testWord.createLetters();
 // testWord.displayWord();
@@ -41,7 +44,7 @@ function playGame(word) {
 
 playGame(testWord.Array[0]);
 
-console.log(testWord)
+console.log(new word)
 
 
 
