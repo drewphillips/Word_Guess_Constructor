@@ -2,12 +2,10 @@ var Word = require("./word.js");
 const inquirer = require("inquirer");
 
 
-//var testWord = new Word("baseball");
+var testWord = new Word("baseball");
 // this worked for only having one word each time but Im trying to get an array of words.
 
-
-
-testWord.array = new Word("baseball, football, basketball, socer, lacross, basketball")
+//testWord.array = new Word("baseball, football, basketball, socer, lacross, basketball")
 
 // testWord.createLetters();
 // testWord.displayWord();
@@ -42,10 +40,6 @@ function playGame(word) {
     askForLetters();
 }
 
-playGame(testWord.Array[0]);
+playGame(testWord);
 
-console.log(new word)
-
-
-
-
+//console.log(new word)
