@@ -1,0 +1,24 @@
+{
+  "name": "word_guess_constructor",
+  "version": "1.0.0",
+  "description": "npm stuff",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^6.0.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "i dont know"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yup"
+  },
+  "keywords": [
+    "key",
+    "words"
+  ],
+  "author": "drew",
+  "license": "ISC"
+}
