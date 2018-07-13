@@ -11,7 +11,6 @@ var Letter = function (letter) {
             return "*";
         }
 
-
     }
 
 }

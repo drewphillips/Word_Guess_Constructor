@@ -17,7 +17,7 @@ function playGame(word) {
     word.createLetters();
     word.displayWord();
 
-   
+
 
     function askForLetters() {
 
@@ -30,8 +30,8 @@ function playGame(word) {
         }).then(response => {
             word.checkUserGuess(response.userGuess);
 
-            if(word.continueGame()){
-                
+            if (word.continueGame()) {
+
                 askForLetters();
             }
         })
